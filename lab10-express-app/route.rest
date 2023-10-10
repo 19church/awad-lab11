@@ -1,0 +1,21 @@
+### POST
+
+POST http://localhost:3000/products/add
+Content-Type: application/json
+
+{
+    "type": "cpu",
+    "id": "100001",
+    "name": "Intel Core 17 Gen 10th",
+    "detail": "The Intel Core i7-10750H is a high-end processor for laptops with six cores based on the Comet Lake architecture",
+    "quantity": 10,
+    "price": 10,
+    "file": "testfile",
+    "img": "testImg"
+}
+
+### GET
+
+GET http://localhost:3000/products/get
+
+###
